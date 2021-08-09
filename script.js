@@ -7,7 +7,9 @@ document.getElementById("btn").addEventListener("click", () => {
   } else {
     document.getElementById("name").innerHTML =
       document.getElementById("i1").value +
+      "<br/>" +
       " ❤ " +
+      "<br/>" +
       document.getElementById("i2").value;
     let x = Math.ceil(Math.random() * (100 - 60 + 1)) + 60;
     let y = Math.floor(Math.random() * (100 - 60 + 1)) + 60;
