@@ -13,8 +13,9 @@ document.getElementById("btn").addEventListener("click", () => {
       document.getElementById("i2").value;
     let x = Math.ceil(Math.random() * (100 - 60 + 1)) + 60;
     let y = Math.floor(Math.random() * (100 - 60 + 1)) + 60;
-    document.getElementById("answer").innerText = Math.ceil((x + y) / 2) + " %";
-     document.getElementById("i1").value = "";
+    document.getElementById("i1").value = "";
      document.getElementById("i2").value = "";
+    document.getElementById("answer").innerText = Math.ceil((x + y) / 2) + " %";
+     
   }
 });
